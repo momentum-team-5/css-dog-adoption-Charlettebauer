@@ -1,0 +1,120 @@
+*
+{font-family: "Oswald", sans-serif;
+}
+
+* .header {
+    background-color: #004175;
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 2px solid #89DEEF;
+    border-top: 2px solid #89DEEF;
+    border-right: 2px solid #89DEEF;
+    border-left: 2px solid #89DEEF;
+
+ }
+
+* button {
+        background-color: #89DEEF;
+        color: black;
+        border-radius: 44px;
+        font size: 68%;
+        margin: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-bottom: 2px;
+        display: inline-block;
+}
+/* nav ul {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+li {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 33%;
+} 
+    
+
+ .dog { 
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 27%;   
+} 
+    
+}
+ .flex-container{
+    display:flex;
+    background: white
+}
+.flex-container . div {
+    height: 20px;
+    width: 20px;
+    font-size: 50px;
+
+} 
+h4 {
+    color: white;
+    font-size: 38px;
+}
+
+
+footer{
+    display: flex;
+    background-color: #a6a9f0;
+    height:350px;
+    margin-top: 30px;
+
+}
+ .footer1 {
+     display: flex;
+     flex: 1 0 33%;
+     align-items: center;
+     justify-content: center;
+     background-position: center;
+     background-size: stretch;
+     background:linear-gradient(
+         rgba(166, 169, 240, 0.8),
+         rgba(166, 169, 240, 0.8)),
+     url(starter_files/images/donate.jpg);
+ }
+
+
+
+ .footer2 {
+    display: flex;
+     flex: 1 0 33%;
+     align-items: center;
+     justify-content: center;
+     background-position: center;
+     background-size: stretch;
+     background:linear-gradient(
+         rgba(166, 169, 240, 0.8),
+         rgba(166, 169, 240, 0.8)),
+     url(starter_files/images/volunteer.jpg);
+ }
+
+.footer3 {display: flex;
+    flex: 1 0 33%;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: stretch;
+    background:linear-gradient(
+        rgba(166, 169, 240, 0.8),
+        rgba(166, 169, 240, 0.8)),
+    url(starter_files/images/location.png);
+}
+
+
+
+
+
